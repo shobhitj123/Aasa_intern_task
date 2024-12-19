@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { searchWeather } from '../../../src2/services/weatherService';
+import { searchWeather } from '../services/weatherService';
 
 const Weather = () => {
   const [city, setCity] = useState('');
